@@ -1,0 +1,12 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/36.h"
+
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS
+
+/* source the main keymap */
+#include "base.keymap"
+
+/* use 5-column layout for Zen */
+/{ chosen { zmk,physical-layout = &foostan_corne_5col_layout; }; };
